@@ -1,6 +1,9 @@
 # Freesound General-Purpose Audio Tagging Challenge
 
-## usage:
+## Problem Source:
+https://www.kaggle.com/c/freesound-audio-tagging
+
+## Usage:
 In the directory : src/spectrosegment/
 
 1. Convert wav files into spectrograms. You may set the variable 'VERIFIED' in preprocess_train.py to convert verified training data or non-verified training data.
@@ -41,7 +44,7 @@ output:
 
 > python3 test_spec.py testname.pkl [path/to/sample_submission.csv] [result csvfile]
 
-## tool-kit version
+## Tool-Kit Version
 1. Keras==2.0.8
 2. Tensorflow==1.4.0
 3. Librosa==0.6.0
