@@ -1,6 +1,6 @@
 # Freesound General-Purpose Audio Tagging Challenge
 
-## Problem Source:
+## Project Source:
 https://www.kaggle.com/c/freesound-audio-tagging
 
 ## Usage:
