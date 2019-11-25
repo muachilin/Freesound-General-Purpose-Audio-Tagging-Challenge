@@ -1,7 +1,4 @@
-# Freesound General-Purpose Audio Tagging Challenge
-
-## usage:
-In the directory : src/spectrosegment/
+In this directory:
 
 1. Convert wav files into spectrograms. You may set the variable 'VERIFIED' in preprocess_train.py to convert verified training data or non-verified training data.
 > python3 preprocess_train.py [path/to/train.csv] [path/to/audio_train]
@@ -38,13 +35,4 @@ output:
 
 5. Predict testing data.
 > sh downloadModel.sh
-
 > python3 test_spec.py testname.pkl [path/to/sample_submission.csv] [result csvfile]
-
-## tool-kit version
-1. Keras==2.0.8
-2. Tensorflow==1.4.0
-3. Librosa==0.6.0
-
-
-
